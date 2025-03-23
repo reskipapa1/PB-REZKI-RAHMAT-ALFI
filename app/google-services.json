@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "565312297544",
+    "project_id": "contoh-f1e66",
+    "storage_bucket": "contoh-f1e66.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565312297544:android:eb74a5c3234b53c81a167d",
+        "android_client_info": {
+          "package_name": "com.example.pemogramanmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdgpkZVRyIANPdxavuFhDqwMfGuD5NVu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
