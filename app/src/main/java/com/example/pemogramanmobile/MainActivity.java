@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                         FirebaseUser user = mAuth.getCurrentUser();
                         if (user != null) {
                             // Langsung pindah ke Home tanpa cek verifikasi email
-                            Intent intent = new Intent(MainActivity.this, home.class);
+                            Intent intent = new Intent(MainActivity.this, MainFragment.class);
                             startActivity(intent);
                             finish();
                         }

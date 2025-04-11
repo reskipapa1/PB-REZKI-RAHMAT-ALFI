@@ -86,7 +86,7 @@ public class MainActivity2 extends AppCompatActivity {
                         Toast.makeText(MainActivity2.this, "Account created successfully!", Toast.LENGTH_LONG).show();
 
                         // Langsung pindah ke Home tanpa verifikasi email
-                        Intent intent = new Intent(MainActivity2.this, home.class);
+                        Intent intent = new Intent(MainActivity2.this, MainFragment.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);
                         finish();
